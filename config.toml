@@ -1,0 +1,30 @@
+baseurl = "https://golizzard.com"
+title = "Golizzard"
+theme = "vec"
+languageCode = "en-us"
+paginate = 10
+disqusShortname = ""
+googleAnalytics = "UA-93670237-1"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Posts"
+    weight = 0
+    url = "/post"
+  [[menu.main]]
+    name = "Contact"
+    weight = 1
+    url = "/contact"
+
+[params]
+  Keywords = "Henrik Fogelberg, Golang, Web, Vue.js"
+  Description = "Specialized in progresse web apps, built in Golang."
+  Avatar = "img/lizzard.png"
+  SelfIntro = "Web development in the Canaries"
+  Email = "henrik.fogelberg@gmail.com"
+
+  GithubID = "hfogelberg"
+  TwitterID = "hfogelberg"
+  LinkedInID = "henrikfogelberg"
+  GoogleplusID = "henrik.fogelberg@gmail.com"

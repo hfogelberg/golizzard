@@ -1,0 +1,49 @@
+@media ( max-width: 700px ) {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+@media ( min-width: 701px ) {
+  header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+svg path {
+  fill: none;
+  stroke: rgba(192, 57, 43,1.0);
+  stroke-width: 4;
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  opacity: 0;
+  animation: draw-text 6s forwards;
+}
+
+@keyframes draw-text {
+  from {
+    stroke-dashoffset: 700;
+    oapcity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes draw-oval {
+  from {
+    stroke-dashoffset: 4700;
+    opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
